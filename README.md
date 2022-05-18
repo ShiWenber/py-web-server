@@ -21,10 +21,10 @@ venv 虚拟环境相关文件(不要上传)：
 # 命令行进入项目 py-web-server 的父目录
 Set-Location py-web-server
 Set-Location ..
+python -m venv py-web-server 
 
 # 创建虚拟环境
 Set-Location py-web-server
-python -m venv py-web-server 
 # 激活虚拟环境
 .\Scripts\activate
 ```
@@ -67,7 +67,7 @@ deactivate
 
 （2）	设计成多线程循环处理的模式。
 
-注意： 
+注意：
 
 （1）	以上四个项目选择一个项目作为第四个实验。2—4人一组。
 
