@@ -1,7 +1,5 @@
 # py-web-server
 
-git@github.com:ShiWenber/py-web-server.git
-
 ## 前言
 
 ### 文件结构
