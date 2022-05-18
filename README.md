@@ -29,11 +29,26 @@ Set-Location py-web-server
 python -m venv py-web-server 
 # 激活虚拟环境
 .\Scripts\activate
-# 下载需要的包
+```
+
+![image-20220518100345959](README.assets/image-20220518100345959.png)
+
+如图表示已经进入虚拟环境，此时使用 pip 将仅在本项目文件中起作用
+
+```powershell
+# 下载虚拟环境包列表中的包
 pip install -r requirements.txt
+```
 
+下载新包后更新虚拟环境的包列表
 
+```powershell
 # 导出当前环境存在的包(上传前需要进行该步骤)
 pip freeze > requirements.txt
 ```
 
+退出虚拟环境
+
+```powershell
+deactivate
+```
