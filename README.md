@@ -15,7 +15,7 @@ venv 虚拟环境相关文件(不要上传)：
 
 ### 虚拟环境的使用
 
-在 py-web-server 目录打开命令行(推荐 powershell)
+在 py-web-server 目录打开命令行(以下使用的是 powershell 命令行， 执行脚本前需要先设置安全策略，详见[python虚拟环境](.\py虚拟环境.md))
 
 ```powershell
 # 命令行进入项目 py-web-server 的父目录
@@ -26,7 +26,7 @@ python -m venv py-web-server
 # 创建虚拟环境
 Set-Location py-web-server
 # 激活虚拟环境
-.\Scripts\activate
+.\Scripts\activate.ps1
 ```
 
 ![image-20220518100345959](README.assets/image-20220518100345959.png)
