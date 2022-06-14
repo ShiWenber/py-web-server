@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<!--申明为HTML文档-->
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="免费在线教程"> <!-- 网页描述-->
+  <meta name="keywords" content="HTML,CSS,XML,JavaScript"> <!-- keyword：浏览器搜索关键词-->
+  <meta name="author" content="weilai">
+  <meta http-equiv="refresh" content="400">
+  <!--每400秒刷新界面-->
+  <title>newlife</title>
+  <style type="text/css">
+    body {
+      background-color: rgb(252, 249, 253)
+    }
+
+    p {
+      color: blue
+    }
+  </style>
+  <style type="text/css">
+    h1 {
+      color: red;
+    }
+
+    p {
+      color: blue;
+    }
+  </style>
+</head>
+
+</head>
+
+<body>
+
+  <h1>我的开始</h1>
+
+
+  <div style="color:#166113">
+
+    <form enctype="application/json" name="user" action="" method="post">
+      Username: <input type="text" name="username"><br>
+      Password: <input type="password" name="password">
+      <br />
+      <input type="radio" name="sex" value="male">男<br>
+      <input type="radio" name="sex" value="female">女
+      <input type="submit" value="提交" > <input type="reset">
+    </form>
+
+  </div>
+
+  <form>
+    <label>Name:
+      <input name="submitted-name" autocomplete="name" method="post">
+    </label>
+    <button id="regBtn">Save</button>
+  </form>
+
+  <!-- 以下表单使用 POST 请求发送数据到当前的 URL。 -->
+
+  <iframe src="https://www.runoob.com" name="iframe_a"></iframe>
+  <p><a href="https://www.runoob.com" target="iframe_a" rel="noopener">RUNOOB.COM</a></p>
+
+  <h2>这是二级标题</h2>
+  <h3>谢谢</h3>
+  <h4>六级标题</h4>
+
+  <p>这是一<br />个段落 </p>
+  <hr>
+  <p>歌曲：take me hand:</p>
+  <audio controls height="100" width="100">
+    <source src="resource\audio\takemehand.flac" type="audio/mpeg">
+    <embed height="50" width="100" src="resource\audio\take me hand.flac">
+  </audio>
+
+  <p>我们在每天早上 <time>9:00</time> 开始营业。</p>
+
+  <form action="http://127.0.0.1:8888/index.html" enctype="multipart/form-data" method="POST">
+    <input name="file" type="file" id="file">
+    <input type="submit" value="提交">
+  </form>
+
+  <p>我在 <time datetime="2016-02-19">情人节</time> 有个约会。</p>
+  <p style="color:blue;margin-left:20px;">这是一个段落。</p>
+  <p style="background-color:green;">这是一个段落。</p>
+  <script>
+    document.write("Hello World!")
+  </script>
+  <!--插入脚本-->
+
+  <a href="https://www.google.com" target="_blank" style="text-decoration:none;">www.google.com</a>
+  <br />
+  <!--换行，所有标签都要闭合-->
+  <p>
+    每个表格从一个 table 标签开始。
+    每个表格行从 tr 标签开始。
+    每个表格的数据从 td 标签开始。
+  </p>
+
+  <table border="1">
+    <tr>
+      <td>100</td>
+      <td>200</td>
+      <td>300</td>
+    </tr>
+    <tr>
+      <td>400</td>
+      <td>500</td>
+      <td>600</td>
+    </tr>
+  </table>
+
+
+  <img src="resource\pictures\nice.jpg" width="300" height="400" />
+  <video width="320" height="240" controls>
+    <source src="resource\video\test.mp4" type="video/mp4">
+
+    您的浏览器不支持 HTML5 video 标签。
+  </video>
+
+  <!-- post表单 -->
+  <form enctype="multipart/form-data" action="./upload" method="post">
+    load multi files :<br>
+    <input name="userfile1" type="file"><br>
+    <input name="userfile2" type="file"><br>
+    <input name="userfile3" type="file"><br>
+    <input name="userfile4" type="file"><br>
+    text field :<input type="text" name="text" value="text"><br>
+    <input type="submit" value="提交"><input type=reset>
+  </form>
+
+
+
+</body>
+
+</html>
