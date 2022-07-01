@@ -1,0 +1,1 @@
+scp -i  "C:\Users\shiwenbo\.ssh\ubuntu20_server_ali.pem" -r "D:\GitPros\py-web-server\python-webserver-bak\src2.0"  root@boer.ink:/home/boer/myselfweb
